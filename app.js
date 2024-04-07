@@ -21,11 +21,21 @@ user_input.addEventListener("keyup", (event) => {
 
 send_button.addEventListener("click", async () => {
     const question = user_input.value;
-    const answer = await generateText(question + "give me a ayurvedic remidy, the answer should be short and specific behave like a chatbot dont format your answers just give simple text answers.");
-    console.log(answer);
+    const answer = await generateText(question + "give me a ayurvedic remidy, the answer should be short and specific, behave like a chatbot just give simple text answers.");
+
     const filtered_answer = answer.replace(/\*/g, '');
-    console.log(filtered_answer);
-    answer_area.textContent = filtered_answer;
+    const typingSpeed = 28;
+    const answerText = filtered_answer;
+    let index = 0;
+    function typeAnswer() {
+        if (index < answerText.length) {
+            answer_area.textContent += answerText.charAt(index);
+            index++;
+            setTimeout(typeAnswer, typingSpeed);
+        }
+    }
+
+    typeAnswer(); 
 });
 
 async function generateText(prompt) {
