@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <!-- ... Your HTML and CSS -->
+    <textarea id = "user_input" rows="" cols=""></textarea>
+    <button id="Send" type="" onclick="generateText()">Send</button>
+    <div>
+        <textarea id = "answer" rows="" cols=""></textarea>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

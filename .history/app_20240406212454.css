@@ -1,0 +1,56 @@
+/* app.css */
+body {
+    background: #ceabab;
+}
+.container {
+
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ba9b9b;;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(62, 55, 55, 0.931);
+}
+#user_input,
+#answer {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+background-color: #e9dddd;
+    border-radius: 10px; /* Add border-radius property with a value of 10px */
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.931);
+}
+
+#user_input {
+    margin-bottom: 10px;
+}
+
+#Send {
+    width: 100px;
+    height: 40px;
+    background-color: #f66b01;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 40% ;
+    margin-top: 20px;
+}
+
+#answer {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#main_title {
+    text-align: center;
+    font-size: 39px;
+    color: #390d0d;
+    margin-bottom: 20px;
+}

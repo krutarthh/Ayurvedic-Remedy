@@ -1,0 +1,31 @@
+/* app.css */
+
+/* Add your CSS styles here */
+#user_input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #992424;
+    background: #efecec;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+}
+
+#Send {
+    /* CSS styles for the send button */
+}
+
+#answer {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #992424;
+    background: #efecec;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+}
+

@@ -1,0 +1,49 @@
+/* app.css */
+
+/* Add your CSS styles here */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Center the text within the container */
+}
+
+#user_input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #992424;
+    background: #efecec;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+    margin: 0 auto; /* Center the text box horizontally */
+}
+
+#Send {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#answer {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #992424;
+    background: #efecec;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+    padding-left: 20px;
+    margin: 0 auto; /* Center the text box horizontally */
+}

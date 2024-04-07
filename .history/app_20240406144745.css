@@ -1,0 +1,39 @@
+/* app.css */
+
+/* Add your CSS styles here */
+#user_input {
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #992424;
+    background: #efecec;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+}
+
+
+#Send {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#answer {
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #992424;
+    background: #efecec;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+}
+
