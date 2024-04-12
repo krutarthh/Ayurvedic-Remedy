@@ -1,8 +1,8 @@
 /* app.css */
 body {
     background: #ceabab;
-
-    
+    background-image: url(images/2148290902.jpg) ;
+    transform: scaleX(-1);
 }
 .container {
 

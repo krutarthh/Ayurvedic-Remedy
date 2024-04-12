@@ -1,8 +1,7 @@
 /* app.css */
 body {
     background: #ceabab;
-
-    
+    background-image: flat-lay-spa-arrangement-green-background_23-2148290902;
 }
 .container {
 
@@ -58,7 +57,6 @@ background-color: #e9dddd;
     font-size: 39px;
     color: #390d0d;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 

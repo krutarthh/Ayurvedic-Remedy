@@ -1,8 +1,6 @@
 /* app.css */
 body {
     background: #ceabab;
-
-    
 }
 .container {
 
@@ -13,8 +11,9 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(62, 55, 55, 0.931);
 }
-#user_input {
-    width: 100%;
+#user_input,
+#answer {
+    width: 70%;
     padding: 10px;
     font-size: 16px;
 background-color: #e9dddd;
@@ -25,20 +24,6 @@ background-color: #e9dddd;
     margin: 0 auto;
     display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.931);
-}
-
-#answer {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-background-color: #e9dddd;
-  border-radius: 10px; /* Add border-radius property with a value of 10px */
-  box-sizing: border-box;
-  resize: none;
-  height: 100px;
-  margin: 0 auto;
-  display: block;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.931);
 }
 
 #user_input {
@@ -58,7 +43,6 @@ background-color: #e9dddd;
     font-size: 39px;
     color: #390d0d;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 
@@ -103,7 +87,7 @@ background-color: #e9dddd;
   
   .noot-4 {
     top: 30px;
-    left: 80%;
+    left: 90%;
     animation-delay: 2s;
   }
   
@@ -129,31 +113,38 @@ background-color: #e9dddd;
 
 
   
-/* button */
+  /* CSS */
   #Send {
-    font-size: 0.7rem; /* Decrease the font size to make the button smaller */
-    padding: 0.5rem 2rem; /* Adjust the padding to make the button smaller */
-    border: none;
-    outline: none;
-    border-radius: 0.4rem;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
     cursor: pointer;
-    text-transform: uppercase;
-    background-color: rgb(15, 29, 18);
-    color: rgb(234, 234, 234);
-    font-weight: 700;
-    transition: 0.6s;
-    margin-top: 20px;
-    margin-left: 450px;
-
-
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
   }
-
-  #Send:active {
-    scale: 0.92;
+  
+  #Send :hover {
+    background-color: #fff;
   }
-
-  #Send:hover {
-    background: rgb(2,29,78);
-    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
-    color: rgb(4, 4, 38);
+  
+  #Send :active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
   }

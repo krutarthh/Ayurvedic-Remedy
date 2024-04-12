@@ -21,7 +21,6 @@ user_input.addEventListener("keyup", (event) => {
 
 // on click event to get the answer from the model
 send_button.addEventListener("click", async () => {
-    answer_area.textContent = "";
     const question = user_input.value;
     const answer = await generateText(question + "give me a ayurvedic remedy, the answer should be short and specific, behave like a chatbot. if your response has a product i can buy give me the name and url to buy.");
 
