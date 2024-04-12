@@ -1,13 +1,12 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-require('dotenv').config();
+require('dotenv').config()
 // api call to get the model
-const API_KEY =  "not given for security reasons";
+const API_KEY =  process.env.API_KEY;
 
 console.log(API_KEY); 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-
 
 // fetchign the elements
 const user_input = document.getElementById("user_input");
